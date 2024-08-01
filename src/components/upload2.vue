@@ -6,13 +6,13 @@ const previewIndex=ref(0)
 const fileList=ref([
   {
     name:'李京',
-    url:'../../public/img/1.png'
+    url:'/demo/img/1.png'
   },{
     name:'先锋书店',
-    url:'../../public/img/2.png'
+    url:'/demo/img/2.png'
   },{
     name:'马娇',
-    url:'../../public/img/3.jpg'
+    url:'/demo/img/3.jpg'
   }
 ])
 const updata=ref({

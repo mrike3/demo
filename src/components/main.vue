@@ -7,9 +7,9 @@ const houselist=ref(null)
 const flag=ref(false)
 const indexa=ref(0)
 const urlList=ref([
-    '../../public/img/1.png',
-    '../../public/img/2.png',
-    '../../public/img/3.jpg'
+    '/demo/img/1.png',
+    '/demo/img/2.png',
+    '/demo/img/3.jpg'
 ])
 function showImg(e){
   var indexaa=$(e.target).attr('src')
@@ -40,21 +40,21 @@ onBeforeMount(()=>{
   <el-row justify="center" align="middle" style="height: 100vh">
     <el-space>
       <el-avatar
-          src="../../public/img/1.png"
+          src="/demo/img/1.png"
           shape="square"
           size="large"
           @click="showImg"
       >
       </el-avatar>
       <el-avatar
-          src="../../public/img/2.png"
+          src="/demo/img/2.png"
           shape="square"
           size="large"
           @click="showImg"
       >
       </el-avatar>
       <el-avatar
-          src="../../public/img/3.jpg"
+          src="/demo/img/3.jpg"
           shape="square"
           size="large"
           @click="showImg"

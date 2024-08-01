@@ -9,25 +9,25 @@ import vuesaxStudent from './components/vuesaxStudent.vue'
 
 const routers=[
     {
-        path: '/',
+        path: '/demo',
         component: main
     },{
-        path: '/upload',
+        path: '/demo/upload',
         component: upload
     },{
-        path: '/upload2',
+        path: '/demo/upload2',
         component: upload2
     },{
-        path: '/upload3',
+        path: '/demo/upload3',
         component: upload3
     },{
-        path: '/picture',
+        path: '/demo/picture',
         component: picture
     },{
-        path: '/tab',
+        path: '/demo/tab',
         component: tab
     },{
-        path: '/vuesaxStudent',
+        path: '/demo/vuesaxStudent',
         component: vuesaxStudent
     }
 ]

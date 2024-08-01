@@ -61,7 +61,7 @@ function a(){
 
 <template>
   <vs-dialog v-model="flag1" not-padding blur>
-    <el-image src="../../public/img/3.jpg" ></el-image>
+    <el-image src="/demo/img/3.jpg" ></el-image>
   </vs-dialog>
 
 
